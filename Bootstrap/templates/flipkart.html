@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Product Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+         
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            align-items: center;
+        }
+        .product-card {
+            border: 1px solid black;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .product-image img {
+            width: 100%;
+            max-width: 180px;
+        }
+        .product-specs ul {
+            padding-left: 0;
+            list-style: none;
+        }
+        .price {
+            color: #28a745;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #888;
+        }
+        .sponsored {
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Row for Products -->
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="product-card row">
+                <!-- Column 1: Image -->
+                <div class="col-md-3 product-image d-flex align-items-center">
+                    <img src="https://rukminim2.flixcart.com/image/312/312/l3929ow0/television/h/d/m/kd-65x75k-in5-sony-original-imagef3zkuszrfgh.jpeg?q=70" alt="Sony Bravia TV">
+                </div>
+                <!-- Column 2: Specifications -->
+                <div class="col-md-6">
+                    <span class="sponsored">Sponsored</span>
+                    <h5>Sony Bravia 65 Inch 4K Ultra HD Smart TV</h5>
+                    <div class="product-specs">
+                        <ul>
+                            <li>65 Inch 4K Ultra HD Display</li>
+                            <li>3840 x 2160 Pixel Resolution</li>
+                            <li>HDR 10, Dolby Vision</li>
+                            <li>Google TV with Google Assistant</li>
+                            <li>60W Dolby Atmos Sound Output</li>
+                            <li>4 HDMI Ports, 3 USB Ports</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column 3: Price -->
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-end">
+                    <div class="price">₹1,49,900</div>
+                    <div class="old-price">₹1,79,900</div>
+                    <p>17% off</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card row">
+                <!-- Column 1: Image -->
+                <div class="col-md-3 product-image d-flex align-items-center">
+                    <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/b/i/i/-original-imaguy5ffnchjcyh.jpeg?q=70" alt="Samsung Crystal TV">
+                </div>
+                <!-- Column 2: Specifications -->
+                <div class="col-md-6">
+                    <span class="sponsored">Sponsored</span>
+                    <h5>Samsung Crystal 55 Inch 4K Ultra HD LED Smart TV</h5>
+                    <div class="product-specs">
+                        <ul>
+                            <li>55 Inch 4K Ultra HD Display</li>
+                            <li>3840 x 2160 Pixel Resolution</li>
+                            <li>Crystal 4K Processor</li>
+                            <li>HDR, PurColor Technology</li>
+                            <li>Dolby Digital Plus Audio</li>
+                            <li>3 HDMI Ports, 2 USB Ports</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column 3: Price -->
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-end">
+                    <div class="price">₹89,999</div>
+                    <div class="old-price">₹1,09,999</div>
+                    <p>18% off</p>
+                </div>
+            </div>
+            <div class="product-card row">
+                <!-- Column 1: Image -->
+                <div class="col-md-3 product-image d-flex align-items-center">
+                    <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/q/d/h/-original-imah2pjbmycn39c8.jpeg?q=70" alt="LG OLED TV">
+                </div>
+                <!-- Column 2: Specifications -->
+                <div class="col-md-6">
+                    <span class="sponsored">Sponsored</span>
+                    <h5>LG 55 Inch OLED 4K Ultra HD Smart TV</h5>
+                    <div class="product-specs">
+                        <ul>
+                            <li>55 Inch OLED 4K Display</li>
+                            <li>3840 x 2160 Pixel Resolution</li>
+                            <li>AI ThinQ with Google Assistant & Alexa</li>
+                            <li>Dolby Vision IQ & Dolby Atmos</li>
+                            <li>120Hz Refresh Rate for Gaming</li>
+                            <li>4 HDMI Ports, 3 USB Ports</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column 3: Price -->
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-end">
+                    <div class="price">₹1,29,999</div>
+                    <div class="old-price">₹1,49,999</div>
+                    <p>13% off</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (Optional for interactions) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
