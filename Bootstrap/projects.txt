@@ -1,0 +1,16 @@
+Appointment Booking application
+Chat application using tkinter
+Ecommerce website for Agri products
+Flipkart clone app
+Hotel Booking app
+Leave management app
+Music player using tkinter
+OXL clone
+Online auction system
+Online exam portal with MCQ
+Price comparion website using flask
+social media app (Any)
+Student management application
+Voice comment using tkinter
+Wheather app
+
