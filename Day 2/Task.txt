@@ -1,0 +1,11 @@
+Task 1
+=======
+list dict set tuple
+student
+employee
+
+Task 2
+========
+Registration form for student or employee 
+
+inline,, internal, external
