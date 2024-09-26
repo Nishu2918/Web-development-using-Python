@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vviet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightblue;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top top top"
+                "left center right"
+                "bottom bottom bottom";
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 100px 1fr 100px;
+            width: 90vw;
+            height: 90vh;
+            gap: 10px;
+        }
+
+        .box {
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+
+        .top {
+            grid-area: top;
+            background-color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            color: red;
+        }
+
+        .left {
+            grid-area: left;
+            background-color: #fff;
+        }
+
+        .center {
+            grid-area: center;
+            background-color: #fff;
+        }
+
+        .right {
+            grid-area: right;
+            background-color: #fff;
+        }
+
+        .bottom {
+            grid-area: bottom;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box top">VVIT MYSURU</div>
+        <div class="box left"></div>
+        <div class="box center"></div>
+        <div class="box right"></div>
+        <div class="box bottom"></div>
+    </div>
+</body>
+</html>
