@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .action-buttons button {
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .edit-button {
+            background-color: #4CAF50;
+        }
+        .delete-button {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nishanth</td>
+                <td>H S</td>
+                <td>21</td>
+                <td>10</td>
+                <td class="action-buttons">
+                    <button class="edit-button" onclick="editStudent(1)">Edit</button>
+                    <button class="delete-button" onclick="deleteStudent(1)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sumit</td>
+                <td>arjun</td>
+                <td>21</td>
+                <td>11</td>
+                <td class="action-buttons">
+                    <button class="edit-button" onclick="editStudent(2)">Edit</button>
+                    <button class="delete-button" onclick="deleteStudent(2)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>shree</td>
+                <td>ram</td>
+                <td>21</td>
+                <td>9</td>
+                <td class="action-buttons">
+                    <button class="edit-button" onclick="editStudent(3)">Edit</button>
+                    <button class="delete-button" onclick="deleteStudent(3)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
